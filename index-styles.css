@@ -15,16 +15,75 @@ body, html{
 
 .series{
 	text-align: left;
-	margin-bottom: -20px;
+	margin-bottom: -68px;
 	margin-left: 15px;
 	margin-top: 50px;
 }
 
 .banner{
-	height: 50vh;
+	height: auto;
+	padding-top: 60px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 18px;
 	background-color: #1d2125;
 	
 }
+.cover1 {
+	height: 45vh;
+	width: 25vh;
+	padding: 0px;
+	margin-left: 5px;
+	background-color: #15171b;
+	border-radius: 10px;
+	background-image: url(index/cover/0.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.cover1:hover {
+			margin-left: 100px;
+			-ms-transform: scale(1.5);
+  			-webkit-transform: scale(1.5);
+  			transform: scale(1.5);
+  			z-index: 11111111 !important;
+}
+
+
+
+.cover3 {
+	height: 45vh;
+	width: 25vh;
+	padding: 0px;
+	margin-left: 5px;
+	background-color: #15171b;
+	border-radius: 10px;
+	background-image: url(index/cover/0.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.cover3:hover {
+			margin-left: 100px;
+			-ms-transform: scale(1.5);
+  			-webkit-transform: scale(1.5);
+  			transform: scale(1.5);
+}
+
+.titlebox{
+	vertical-align: bottom;
+	color: white;
+	background-color: black;
+	opacity: 60%;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+
+}
+
 .navlogo{
 	margin-top: -50vh;
 }
